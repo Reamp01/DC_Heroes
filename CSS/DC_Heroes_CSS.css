@@ -1,0 +1,277 @@
+body {
+    background-color: #4d4d4d; 
+    margin: 0px; 
+    font-family: Arial;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+/* Deze zijn voor het customizen van de scrolbarren */
+::-webkit-scrollbar { width: 20px; }
+
+::-webkit-scrollbar-track { background: #4b4b4b; }
+
+::-webkit-scrollbar-thumb { background: #000000; }
+
+/* This are the items that have a place in the header tag */
+header {
+    background-color: #0046c7;
+    width: 100%;
+    border-bottom: solid 2px #ffffff;
+}
+
+#DC_Heroes_Logo_Img {
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 15px;
+    float: left;
+}
+
+#DC_Heroes_Logo_H1 {
+    display: inline-block;
+    color: white;
+    margin-top: 25px;
+    margin-left: 18px;
+}
+
+/* This is all content that is in the Choose_Team div */
+#Choose_Team {
+    width: 360px;
+    height: 799px;
+    background-color: #333333;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    border-right: solid 2px #ffffff;
+}
+
+    #Choose_Team h2:hover {
+        color: #ffffff;
+    }
+
+    #Choose_Team a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    #Choose_Team ul {
+        text-decoration: none;
+        text-align: left;
+        padding-inline-start: 10px;
+    }
+
+    #Choose_Team ul h5 {
+        margin: 0px;
+        color: #a5a5a5;
+    }
+
+    #Choose_Team ul a img {
+        display: block;
+        margin-right: 15px;
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        border: solid 2px #000000;
+        float: left;
+    }
+
+    #Choose_Team ul li {
+        display: block;
+        list-style: none;
+        margin-top: 10px;
+        float: left;
+    }
+
+    #Choose_Team ul li:hover {
+        background-color: #ffffff;
+        color: #000000;
+        height: 29px;
+    }
+
+    #Selected_Team_Img {
+        height: 200px;
+        margin-right: 5px;
+        margin-top: 30px;
+        border-radius: 25%;
+        -webkit-transition: -webkit-transform .5s ease-in-out;
+        transition: transform .8s ease-in-out;
+    }
+
+    #Selected_Team_Img:hover {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+
+/* This is all content that is in the Choose_Hero div */
+#Choose_Hero {
+    width: 714px;
+    height: 799px;
+    display: inline-block;
+    float: left;
+    margin-left: 1px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+    .Heroes_Title {
+        margin-left: 20px;
+    }
+
+    .Heroes_Div {
+        width: 650px;
+        height: 200px;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-right: 30px;
+        border: solid 2px #000000;
+    }
+
+    .Choose_Hero_Image {
+        width: 150px;
+        height: 150px;
+        margin-top: 25px;
+        margin-left: 25px;
+        float: left;
+        margin-right: 20px;
+        border: solid 2px #000000;
+    }
+
+    .Choose_Hero_Name {
+        display: inline-block;
+        color: white;
+        padding-top: 25px;
+        font-size: 35px;
+        margin: 0px;
+    }
+
+    .Choose_Hero_StarDiv {
+        display: inline-block;
+    }
+
+    .Choose_Hero_Description {
+        max-width: 500px;
+        max-height: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0px;
+        color: white;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .Choose_Hero_ReadMore {
+        margin: 0px;
+    }
+
+    .Choose_Hero_AHref {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 24px;
+    }
+
+
+/* This is all content that is in the Information_Hero div */
+#Information_Hero {
+    width: 761px;
+    height: 799px;
+    padding: 20px;
+    padding-right: 20px;
+    background-color: #727272;
+    overflow-y: scroll;
+    border-left: solid 2px #ffffff;
+}
+
+    .Info_Hero_Img {
+        width: 600px;
+        margin-top: 25px;
+        border: solid 4px #000000;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .Info_Hero_Image_Container {
+        margin: auto;
+        background-color: #525252;
+        width: 705px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: solid 2px #000000;
+    }
+
+    .Info_Hero_H2 {
+        color: white;
+        display: inline-block;
+        margin: 0px;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+        /* This are the items that have a relation with the form */
+        .Info_Hero_Form {
+            margin-left: 25px;
+            margin-bottom: 25px;
+            font-size: 20px;
+            color: #222222;
+        }   
+
+        .Info_Hero_Form_Name { 
+            padding: 10px;
+            padding-left: 15px;
+        }
+
+        .Info_Hero_Form_Text {
+            width: 40%;
+            height: 50px;
+            margin-bottom: 20px;
+            padding-left: 15px;
+        }
+
+        /* This are the items that have a relation with reviews */
+        .Review_Div_Item {
+            width: 700px;
+            background-color: #585858;
+            margin: 0px auto;
+            margin-bottom: 20px;
+            border: solid 2px #000000;
+            padding-left: 25px;
+            padding-bottom: 5px;
+        }
+
+        .Review_Username {
+            color: #000000;
+            margin: 0px;
+            margin-top: 25px;
+            font-size: 20px;
+        }
+
+        .Review_Review {
+            color: white;
+            margin: 0px;
+            font-size: 20px;
+            margin-top: 5px;
+        }
+
+        .Reveiw_Date {
+            display: block;
+            margin: 0px;
+            color: #000000;
+            font-size: 18px;
+            float: right;
+            margin-top:20px;
+            margin-bottom: 10px;
+            margin-right: 5%;
+        }
+
+        .Review_Star_Div {
+            display: inline-block;
+            margin-top: 12px;
+        }
+
+        .Review_Stars {
+            height: 30px;
+            width: 30px;
+        }
